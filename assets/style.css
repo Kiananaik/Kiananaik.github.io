@@ -4,7 +4,7 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(250, 128, 114);
   text-decoration: none;
 }
 .navbox {
@@ -23,40 +23,49 @@ a:hover {
   background-color: transparent;
   border-bottom: .25rem solid rgb(255, 255, 255));
 }
-.navlink:hover,
-.navlink:focus,
+.nav-link:hover,
+.nav-link:focus,
 .currentPage:hover,
 .currentPage:focus {
   border-bottom-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
-.navbox .navlink + .navlink {
+.navbox .nav-link + .nav-link {
   margin-left: 1rem;
 }
-.navlink:active,
+.nav-link:active,
 .currentPage:active,
 a:active {
   color: rgb(255, 255, 255);
 }
-.btn-secondary {
+.btn-secondary,
+.btn {
+  font-weight: bolder;
   color: rgb(255, 255, 255);
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgb(250, 128, 114, 0.719);
+  border-radius: 40%;
   align-content: center;
   padding: 1px;
   width: 200px;
 }
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn:hover {
+  font-weight: bolder;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(250, 128, 114, 0.719);
   text-shadow: none; /* Prevent inheritance from `body` */
-  border: 1px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 40%;
   align-content: center;
   padding: 1px;
   width: 200px;
 }
 .btn-secondary:active,
-.btn-secondary:focus {
+.btn:active,
+.btn-secondary:focus,
+.btn:focus {
   color: rgb(255, 255, 255);      
   background-color: rgb(0, 0, 0);
   border-color: rgb(255, 255, 255);
@@ -65,18 +74,17 @@ a:active {
 
 .navbar,
 .navbar-expand-md {
-    background-color: rgb(250, 128, 114);
-    opacity: 0.7;
+    background-color: rgb(250, 128, 114, 0.719);
 }
 .navbar-toggler {
-    color: rgb(20, 182, 142);
-    background-color: rgb(59, 38, 179);
-    border: 3px solid rgb(59, 38, 179);
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 128, 114, 0.719);
+    border: 1px solid rgb(255, 255, 255);
 }
 .navbar-toggler:hover {
-    color: rgb(252, 252, 252);
-    background-color: rgb(0, 145, 31);
-    border: 3px solid rgb(0, 145, 31);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.719);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 /* Everything above has to do with links -----------------------------
@@ -99,6 +107,10 @@ body {
 }
 .cover-container {
   max-width: 50em;
+}                    /*GETTING RID OF THIS MADE EVERYTHING ALIGN LEFT */
+.inner,
+.cover {
+  max-width: 50em; 
 }
 
  /* ------------------- HEADER -------------------------*/
@@ -119,6 +131,7 @@ body {
   padding-right: 15px;
   border: double 4px rgb(255, 255, 255);
   border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #name {
@@ -129,7 +142,7 @@ body {
 #sub {
   flex: 1;
   order: 2;
-  color: rgb(255, 255, 255);
+  color: rgb(250, 128, 114);
   font-size: xx-small;
   margin-top: 20px;
 }
@@ -159,10 +172,14 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   padding: 0;
-  border-top: solid 1.3px rgb(255, 255, 255);
-  border-bottom: solid 1.3px rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.568);
+  border-top: dotted 1.3px rgb(255, 255, 255);
+  border-bottom: dotted 1.3px rgb(250, 128, 114);
+  border-right: dotted 1.3px rgb(250, 128, 114);
+  border-left: dotted 1.3px rgb(255, 255, 255);
+  border-radius: 20%;
   text-align: center;
   font-size: xx-small;
 }
@@ -171,6 +188,7 @@ body {
   flex: 4;
   order: 1;
   margin-top: 14px;
+  margin-left: 5em;
 }
 #linkedinlink {
   flex: 1;
@@ -196,10 +214,15 @@ body {
 .summ {
   flex: 3;
   order: 1;
-  text-align: center;
+  -ms-text-align-last: justify;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   min-width: 300px;
+}
+.inSumm {
+    background-color: rgb(250, 128, 114, 0.719);
+    padding: 2.7em;
+    border-radius: 30%;
 }
 .picwinfo {
   flex: 2;
@@ -220,9 +243,9 @@ body {
 img {
   align-content: center;
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 4px;
+  border-radius: 50%;
   padding: 5px;
-  width: 200px;
+  width: 220px;
 }
 
 /* CONTACT BOXES FOR CONTACT PAGE ----------------------------*/
