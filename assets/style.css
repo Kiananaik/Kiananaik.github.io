@@ -180,12 +180,13 @@ body {
   margin-top: 5%;
   margin-bottom: 2%;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.568);
-  border-top: dotted 1.3px rgb(255, 255, 255);
-  border-bottom: dotted 1.3px rgb(250, 128, 114);
-  border-right: dotted 1.3px rgb(250, 128, 114);
-  border-left: dotted 1.3px rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.719);
+  border-top: solid 1.3px rgb(255, 255, 255, 0.719);
+  border-bottom: solid 1.3px rgb(250, 128, 114, 0.719);
+  border-right: double 10px rgb(250, 128, 114, 0.719);
+  border-left: double 10px rgb(255, 255, 255, 0.719);
   border-radius: 20%;
+  
   text-align: center;
   font-size: xx-small;
 }
@@ -230,8 +231,7 @@ body {
     padding: 2.7em;
     border-radius: 30%;
 }
-.des,
-.contactbox {
+.des {
     background-color: rgb(250, 128, 114, 0.719);
     padding: 2.5em;
     border-radius: 50%;
@@ -271,6 +271,16 @@ img {
   justify-content: center;
   text-align: center;
   margin-top: 5%;
+  background-color: rgb(250, 128, 114, 0.719);
+  padding: 2.5em;
+  border-radius: 50%;
+  min-width: 500px;
+}
+#fname,
+#lname,
+#email {
+    width: 220px;
+    text-align: center;
 }
 #subject {
   width: 300px;
@@ -293,6 +303,18 @@ img {
   -moz-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
   -webkit-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(250, 128, 114);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(250, 128, 114);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(250, 128, 114);
+  }
 
 /* MAINBOX FOR PORTFOLIO HTML ----- USING BOOTSTRAP ROWS AND COLUMNS HERE ----- */
 
