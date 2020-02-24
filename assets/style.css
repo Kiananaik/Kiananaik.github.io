@@ -11,7 +11,7 @@ a:hover {
   text-decoration: none;
   padding: .25rem 0;
   font-weight: 700;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.719);
   border-bottom: .25rem solid transparent;
 }
 .navbar-nav {
@@ -38,15 +38,15 @@ a:hover {
 .nav-link:active,
 .currentPage:active,
 a:active {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.719);
 }
 .btn-secondary,
 .btn {
   font-weight: bolder;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.719);
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: rgb(0, 0, 0);
-  border: 2px solid rgb(250, 128, 114, 0.719);
+  background-color: rgba(0, 0, 0, 0.719);
+  border: 2px solid rgba(255, 255, 255, 0.719);
   border-radius: 50%;
   align-content: center;
   padding: 1px;
@@ -55,10 +55,10 @@ a:active {
 .btn-secondary:hover,
 .btn:hover {
   font-weight: bolder;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.719);
   background-color: rgb(250, 128, 114, 0.719);
   text-shadow: none; /* Prevent inheritance from `body` */
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 50%;
   align-content: center;
   padding: 1px;
@@ -68,9 +68,9 @@ a:active {
 .btn:active,
 .btn-secondary:focus,
 .btn:focus {
-  color: rgb(255, 255, 255);      
-  background-color: rgb(0, 0, 0);
-  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.719);      
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(255, 255, 255, 0);
 }
 /*NAVBAR STUFF LIKE FROM MY HANDYMAN EXAMPLE*/
 
@@ -79,14 +79,14 @@ a:active {
     background-color: rgb(250, 128, 114, 0.719);
 }
 .navbar-toggler {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255, 0.719);
     background-color: rgb(250, 128, 114, 0.719);
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255, 0.719);
 }
 .navbar-toggler:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0, 0.719);
     background-color: rgb(255, 255, 255, 0.719);
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 
 /* Everything above has to do with links -----------------------------
