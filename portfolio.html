@@ -16,15 +16,34 @@
     </head>
 
     <body class="text-center">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">            
             <header class="masthead mb-auto">
                 <div class="inner">
-                    <nav class="navbox justify-content-center">
-                        <a class="navlink" href="index.html">Home</a>
-                        <a class="navlink currentPage" href="portfolio.html">Portfolio</a>
-                        <a class="navlink" href="contact.html">Contact</a>
+                    <nav class="navbar navbar-expand-md fixed-top ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            Click here to navigate site!
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="resume.html">Resume</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <button class="btn my-2 my-sm-0">kilo Electronics</button>
+                        </div>
                     </nav>
-                    <br>
+
+                    <br><br><br>
+
                     <div class="masthead-brand">
                         <h1 id="name">Kiana N. G. Darlington</h1>
                         <p id="sub">Past & Present Projects</p>
@@ -35,60 +54,14 @@
             <br>
 
             <main role="main" class="inner cover">
-                <div class="container">
-                    <br>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a type= "button" href="#" class="btn btn-lg btn-secondary">
-                                Thumbnail 1
-                            </a>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="des">
-                                Summary of first project.
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a type= "button" href="##" class="btn btn-lg btn-secondary">
-                                Thumbnail 2
-                            </a>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="des">
-                                Summary of second project.
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a type= "button" href="###" class="btn btn-lg btn-secondary">
-                                Thumbnail 3
-                            </a>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="des">
-                                Summary of third project.
-                            </div>
-                        </div>
-                    </div>
-
-                    <br><br>
+                <div class="mainbox">
+                    
+                    
+                    
                 </div>
             </main>
 
-            <footer class="mastfoot cover-container mt-auto">
+            <footer class="mastfoot inner cover-container mt-auto">
                 <div class="footerbox">
                     <p id="tag">Website design by Kiana N. G. Darlington</p>
                     <div id="linkedinlink"><a href="https://www.linkedin.com/in/kiana-garcia-darlington-496957117/">linkedin</a></div>
@@ -96,5 +69,14 @@
                 </div>
             </footer>
         </div>
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <!-- Popper.JS CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!-- Bootstrap Javascript CDN-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- My personal Javascript -->
+        <script src="script.js"></script>
     </body>
 </html>

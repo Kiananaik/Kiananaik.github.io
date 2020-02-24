@@ -16,16 +16,33 @@
     </head>
 
     <body class="text-center">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">            
             <header class="masthead mb-auto">
                 <div class="inner">
-                    <nav class="navbox justify-content-center">
-                        <a class="navlink" href="index.html">Home</a>
-                        <a class="navlink" href="portfolio.html">Portfolio</a>
-                        <a class="navlink currentPage" href="contact.html">Contact</a>
+                    <nav class="navbar navbar-expand-md fixed-top ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                            Click here to navigate site!
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="resume.html">Resume</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
+                                </li>
+                            </ul>
+                            <button class="btn my-2 my-sm-0">kilo Electronics</button>
+                        </div>
                     </nav>
 
-                    <br>
+                    <br><br><br>
 
                     <div class="masthead-brand">
                         <h1 id="name">Kiana N. G. Darlington</h1>
@@ -37,26 +54,14 @@
             <br>
 
             <main role="main" class="inner cover">
-                <div class="contactbox"> This Contact Form is currently non-functional. Sorry for the inconvenience.<br>- love Kiki<br><br>
-                    <form action="action_page.php">
-                        <label for="fname">First Name</label><br>
-                            <input type="text" id="fname" name="firstname" placeholder="Your first name goes here.">
-                        <br><br>
-                        <label for="lname">Last Name</label><br>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name goes here.">
-                        <br><br>
-                        <label for="email">Email Address</label><br>
-                            <input type="text" id="email" name="email" placeholder="Your email goes here.">
-                        <br><br>
-                        <label for="subject">What would you like to talk about?</label><br>
-                            <textarea id="subject" name="subject" placeholder="Write me a letter! I love letters."></textarea>
-                        <br><br>
-                        <input type="submit" value="Submit" class="submit">
-                    </form>
+                <div class="mainbox">
+                    
+                    
+
                 </div>
             </main>
 
-            <footer class="mastfoot cover-container mt-auto">
+            <footer class="mastfoot inner cover-container mt-auto">
                 <div class="footerbox">
                     <p id="tag">Website design by Kiana N. G. Darlington</p>
                     <div id="linkedinlink"><a href="https://www.linkedin.com/in/kiana-garcia-darlington-496957117/">linkedin</a></div>
@@ -64,5 +69,14 @@
                 </div>
             </footer>
         </div>
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <!-- Popper.JS CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!-- Bootstrap Javascript CDN-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- My personal Javascript -->
+        <script src="script.js"></script>
     </body>
 </html>
