@@ -12,7 +12,7 @@ a:hover {
   padding: .25rem 0;
   font-weight: 700;
   color: rgb(255, 255, 255);
-  background-color: transparent;
+  /* background-color: transparent; */
   border-bottom: .25rem solid transparent;
 }
 .currentPage {
@@ -57,12 +57,26 @@ a:active {
 }
 .btn-secondary:active,
 .btn-secondary:focus {
-  color: rgb(255, 255, 255);      /*THIS PART IS SUPER FUCKED*/
+  color: rgb(255, 255, 255);      
   background-color: rgb(0, 0, 0);
   border-color: rgb(255, 255, 255);
-  
-  
-  
+}
+/*NAVBAR STUFF LIKE FROM MY HANDYMAN EXAMPLE*/
+
+.navbar,
+.navbar-expand-md {
+    background-color: rgb(250, 128, 114);
+    opacity: 0.7;
+}
+.navbar-toggler {
+    color: rgb(20, 182, 142);
+    background-color: rgb(59, 38, 179);
+    border: 3px solid rgb(59, 38, 179);
+}
+.navbar-toggler:hover {
+    color: rgb(252, 252, 252);
+    background-color: rgb(0, 145, 31);
+    border: 3px solid rgb(0, 145, 31);
 }
 
 /* Everything above has to do with links -----------------------------
