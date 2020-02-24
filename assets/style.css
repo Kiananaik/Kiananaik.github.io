@@ -71,8 +71,8 @@ a:active {
 html,
 body {
   
-  height: 100%;
-  background-image: url(../assets/images/back16.jpg);
+  width: 100%;
+  background-image: url(../assets/images/back18.jpg);
   background-attachment: fixed;
   background-position: center;
 }
