@@ -1,17 +1,17 @@
 a,
 a:focus {
-  color: rgb(15, 197, 188);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 a:hover {
-  color: rgb(209, 64, 7);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .navbox {
   text-decoration: none;
   padding: .25rem 0;
   font-weight: 700;
-  color: rgb(15, 197, 188);
+  color: rgb(255, 255, 255);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
@@ -19,15 +19,15 @@ a:hover {
   text-decoration: none;
   padding: .25rem 0;
   font-weight: 700;
-  color: rgb(209, 64, 7);
+  color: rgb(255, 255, 255);
   background-color: transparent;
-  border-bottom: .25rem solid rgb(15, 197, 188);
+  border-bottom: .25rem solid rgb(255, 255, 255));
 }
 .navlink:hover,
 .navlink:focus,
 .currentPage:hover,
 .currentPage:focus {
-  border-bottom-color: rgb(209, 64, 7);
+  border-bottom-color: rgb(255, 255, 255);
 }
 .navbox .navlink + .navlink {
   margin-left: 1rem;
@@ -38,19 +38,19 @@ a:active {
   color: rgb(255, 255, 255);
 }
 .btn-secondary {
-  color: rgb(15, 197, 188);
+  color: rgb(255, 255, 255);
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgb(209, 64, 7);
+  border: 1px solid rgb(255, 255, 255);
   align-content: center;
   padding: 1px;
   width: 200px;
 }
 .btn-secondary:hover {
-  color: rgb(209, 64, 7);
+  color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0);
   text-shadow: none; /* Prevent inheritance from `body` */
-  border: 1px solid rgb(15, 197, 188);
+  border: 1px solid rgb(255, 255, 255);
   align-content: center;
   padding: 1px;
   width: 200px;
@@ -72,7 +72,7 @@ html,
 body {
   
   height: 100%;
-  background-image: url(../images/black_scales/black_scales.png);
+  background-image: url(../assets/images/back8.jpg);
   background-attachment: fixed;
   background-position: center;
 }
@@ -103,7 +103,7 @@ body {
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  border: double 4px rgb(15, 197, 188);
+  border: double 4px rgb(255, 255, 255);
   border-radius: 100%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -115,7 +115,7 @@ body {
 #sub {
   flex: 1;
   order: 2;
-  color: rgb(209, 64, 7);
+  color: rgb(255, 255, 255);
   font-size: xx-small;
   margin-top: 20px;
 }
@@ -147,8 +147,8 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 0;
-  border-top: solid 1.3px rgb(15, 197, 188);
-  border-bottom: solid 1.3px rgb(15, 197, 188);
+  border-top: solid 1.3px rgb(255, 255, 255);
+  border-bottom: solid 1.3px rgb(255, 255, 255);
   text-align: center;
   font-size: xx-small;
 }
@@ -205,7 +205,7 @@ body {
 }
 img {
   align-content: center;
-  border: 1px solid rgb(15, 197, 188);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
   padding: 5px;
   width: 200px;
@@ -229,14 +229,14 @@ img {
   text-shadow: none;
   padding: 10px 20px 11px !important;
   font-size: 21px !important;
-  background-color: rgb(15, 197, 188);
+  background-color: rgb(255, 255, 255);
   font-weight: bold;
-  text-shadow: 1px 1px rgb(15, 197, 188);
+  text-shadow: 1px 1px rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
-  border: 1px solid rgb(15, 197, 188);
+  border: 1px solid rgb(255, 255, 255);
   box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
   -moz-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
   -webkit-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
