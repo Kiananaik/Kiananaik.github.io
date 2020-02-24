@@ -102,7 +102,7 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-
+  overflow-y: scroll;
 }
 body {
   display: -ms-flexbox;
