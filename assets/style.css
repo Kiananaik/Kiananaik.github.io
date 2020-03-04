@@ -336,7 +336,11 @@ body {
 }
 .preview {
   block-size: auto;
-  border: 1px solid rgb(250, 128, 114);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgba(250, 128, 114, 0);
+  border-right: 1px solid rgba(250, 128, 114, 0);
+  padding: 1%;
   border-radius: 20%;
   opacity: 0.9;
 }
