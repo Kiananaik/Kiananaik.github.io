@@ -23,7 +23,7 @@ a:hover {
   font-weight: 700;
   color: rgb(255, 255, 255);
   background-color: transparent;
-  border-bottom: .25rem solid rgb(255, 255, 255));
+  border-bottom: .25rem solid rgb(255, 255, 255);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -73,7 +73,6 @@ a:active {
   border-color: rgba(255, 255, 255, 0);
 }
 /*NAVBAR STUFF LIKE FROM MY HANDYMAN EXAMPLE*/
-
 .navbar,
 .navbar-expand-md {
     background-color: rgb(250, 128, 114, 0.719);
@@ -88,10 +87,8 @@ a:active {
     background-color: rgb(255, 255, 255, 0.719);
     border: 1px solid rgba(0, 0, 0, 0);
 }
-
 /* Everything above has to do with links -----------------------------
 --------- BELOW starts with body, followed by everything else ------------ */
-
 html,
 body {
   height: 100%;
@@ -118,9 +115,7 @@ body {
 .cover {
   max-width: 50em; 
 }
-
- /* ------------------- HEADER -------------------------*/
-
+/* ------------------- HEADER -------------------------*/
 .masthead {
   margin-bottom: 2rem;
   justify-content: center;
@@ -152,9 +147,7 @@ body {
   font-size: xx-small;
   margin-top: 20px;
 }
-
 /* ------- Media Queries ----------*/
-
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -170,9 +163,7 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
 /* ---------------------- FOOTER --------------------------------- */
-
 .footerbox {
   display: -ms-flexbox;
   display: flex;
@@ -207,11 +198,8 @@ body {
   order: 3;
   margin-top: 14px;
 }
-
 /* -------- end of footer --------------------------------*/
-
 /* BODY CONTENT STUFF LIKE FONTS ---------------------------------------------- */
-
 .mainbox {
   display: -ms-flexbox;
   display: flex;
@@ -221,7 +209,7 @@ body {
 .summ {
   flex: 3;
   order: 1;
-  -ms-text-align-last: justify;
+  /* -ms-text-align-last: justify; */
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   min-width: 300px;
@@ -255,16 +243,14 @@ body {
   order: 2;
   margin-top: 10px;
 }
-img {
+.kiki {
   align-content: center;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   padding: 5px;
   width: 220px;
 }
-
 /* CONTACT BOXES FOR CONTACT PAGE ----------------------------*/
-
 .contactbox {
   display: flex;
   flex-direction: column;
@@ -307,27 +293,55 @@ img {
   -webkit-box-shadow: 0 3px 0 rgb(255, 255, 255) inset;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(250, 128, 114);
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgb(250, 128, 114);
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: rgb(250, 128, 114);
-  }
-
+  color: rgb(250, 128, 114);
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(250, 128, 114);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(250, 128, 114);
+}
 /* MAINBOX FOR PORTFOLIO HTML ----- USING BOOTSTRAP ROWS AND COLUMNS HERE ----- */
-
-
 .des,
 .thumbnail {
   margin-top: 2em;
 }
-
-
-
-
-
+.projectTitle {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+/*LOTUS ICON FOR KILO ELECTRIC */
+.lotusIcon {
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-radius: 0%;
+  align-content: center;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 15px;
+  size: 100%;
+  max-height: 50%;  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lotus {
+  padding-top: 5px;
+  opacity: 0.6;
+}
+.preview {
+  block-size: auto;
+  border: 1px solid rgb(250, 128, 114);
+  border-radius: 20%;
+  opacity: 0.9;
+}
+.proLink,
+.proLink:hover {
+  font-size: smaller;
+  font-weight: bold;
+}
